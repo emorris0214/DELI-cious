@@ -1,0 +1,66 @@
+Planning, brought to you in part by my brain and ChatGPT
+
+// Chat GPT for the broken down class aesthetic in the form of receipts
+
+Creating classes:
+
+I will break down Order into 2 classes, one that is OrderItems with methods (Order, addItem, getTotal, getDetails)
++------------------+
+|      Order       |
+--------------------
+- sandwiches       |
+- drinks           |
+- chips            |
+--------------------
+| +addSandwich()   | // Combining these first 3 methods of add to create addItem()
+| +addDrink()      |
+| +addChips()      |
+| +getTotal()      |
+| +getDetails()    |
++------------------+
+
++----------------------+
+|     Sandwich         |
+------------------------
+| - size               |
+| - breadType          |
+| - meats              |
+| - cheeses            |
+| - regularToppings    |
+| - sauces             |
+| - toasted            |
++----------------------+
+| +calculatePrice()    |
+| +getDescription()    |
++----------------------+
+
++----------------------+
+|     Drink            |
++----------------------+
+- size                 |
+- flavor               |
+------------------------
++getPrice()            |
++getDescription()      |
++----------------------+
+
++----------------------+
+|     Chips            |
+------------------------
+- type                 |
+------------------------
++getPrice()            |
++getDescription()      |
++----------------------+
+
++----------------------+
+|  ReceiptWriter       |
+------------------------
++write(Order)          |
++----------------------+
+
++----------------------+
+|  PriceConstants      |
+------------------------
+- static pricing data  |
++----------------------+
