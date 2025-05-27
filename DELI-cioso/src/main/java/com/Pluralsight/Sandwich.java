@@ -23,8 +23,8 @@ public class Sandwich extends OrderItem {
         this.toasted = false;
     }
 
-    public void addMeat(String meat) { meats.add(meat); }
-    public void addCheese(String cheese) { cheeses.add(cheese); }
+    public void addMeat(String meat) { meats.put(meat, meats.getOrDefault(meat, 0) + 1); }
+    public void addCheese(String cheese) { cheeses.put(cheese, cheeses.getOrDefault(cheese, 0) +1); }
     public void addTopping(String topping) { regularToppings.add(topping); }
     public void addSauce(String sauce) { sauces.add(sauce); }
     public void setToasted(boolean toasted) { this.toasted = toasted; }
