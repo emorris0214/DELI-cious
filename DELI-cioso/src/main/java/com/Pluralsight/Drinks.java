@@ -17,7 +17,7 @@ public class Drinks extends OrderItem {
 
     @Override
     public String getDescription() {
-        return size + " Drink - " + flavor;
+        return size + " Drink - " + flavor + " ($" + getPrice() + ")";
     }
 }
 

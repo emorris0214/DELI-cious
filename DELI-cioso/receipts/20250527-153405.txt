@@ -1,0 +1,10 @@
+Order Details:
+12" White Sandwich
+Meats: {Turkey=1, Ham=1}
+Cheeses: {Provolone=1}
+Toppings: [Lettuce, Tomato]
+Sauces: [Ranch]
+Toasted: Yes
+Price: $16.75
+
+Total: $16.75

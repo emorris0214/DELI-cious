@@ -1,20 +1,16 @@
 package com.Pluralsight;
 
-import java.io.BufferedWriter;
-import java.io.File;
-import java.io.FileWriter;
-import java.io.IOException;
-import java.time.LocalDate;
+import java.io.*;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 
+// Handles writing order receipts to disk
 public class ReceiptWriter {
 
     private static final String RECEIPT_FOLDER = "receipts";
 
     public static void writeReceipt(Order order) {
         try {
-
             File folder = new File(RECEIPT_FOLDER);
             if (!folder.exists()) {
                 folder.mkdir();

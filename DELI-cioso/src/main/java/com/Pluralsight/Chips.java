@@ -15,7 +15,7 @@ public class Chips extends OrderItem {
 
     @Override
     public String getDescription() {
-        return "Chips - " + type;
+        return "Chips - " + type + " ($" + getPrice() + ")";
     }
 }
 

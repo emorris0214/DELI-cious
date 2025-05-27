@@ -115,7 +115,7 @@ public class MainApp {
     private static Drinks createDrink() {
         System.out.println("\n--- Add a Drink, Homie ---");
         String size = promptChoice("Select drink size", MenuOptions.DRINK_SIZES);
-        String flavor = promptChoice("Select drink flavor", MenuOptions.DRINK_SIZES);
+        String flavor = promptChoice("Select drink flavor", MenuOptions.DRINK_FLAVORS);
         return new Drinks(size, flavor);
     }
 
