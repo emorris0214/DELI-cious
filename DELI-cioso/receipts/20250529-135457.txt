@@ -1,0 +1,14 @@
+Order Details:
+Chips - BBQ ($1.5)
+
+12" Wrap Sandwich
+Meats: {Chicken=2}
+Cheeses: {Cheddar=2}
+Toppings: [Lettuce]
+Sauces: [Vinaigrette, Vinaigrette]
+Toasted: Yes
+Price: $19.00
+
+Medium Drink - Root Beer ($2.5)
+
+Total: $23.00

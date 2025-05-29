@@ -155,11 +155,11 @@ public class MainApp {
             }
             System.out.println("Enter number (or 'done'): ");
             String input = keyboard.nextLine();
-            if (input.equalsIgnoreCase("done")) break;
+            if (input.equalsIgnoreCase("done")) break; // Exit on 'done'
             try {
                 int choice = Integer.parseInt(input) - 1;
                 if (choice >= 0 && choice < options.size()) {
-                    adder.accept(options.get(choice));
+                    adder.accept(options.get(choice)); // Adds to sandwich
                 } else {
                     System.out.println("Invalid choice.");
                 }
