@@ -4,6 +4,7 @@ import java.util.Arrays;
 import java.util.List;
 
 // Holds available sandwich ingredients for the shop
+// Static lists for all valid user choices & Used for menu display and validation
 public class MenuOptions {
     public static final List<String> BREAD_TYPES = Arrays.asList("White", "Wheat", "Rye", "Wrap");
     public static final List<String> SIZES = Arrays.asList("4", "8", "12");

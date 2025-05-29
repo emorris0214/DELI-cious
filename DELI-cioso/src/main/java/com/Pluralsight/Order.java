@@ -10,16 +10,19 @@ public class Order {
         this.items = new ArrayList<>();
     }
 
+    // Adds item to list
     public void addItem(OrderItem item) {
         items.add(item);
     }
 
+    // Sums all prices using streams
     public double getTotal() {
         return items.stream()
                 .mapToDouble(OrderItem::getPrice)
                 .sum();
     }
 
+    // Returns a readable string with each item's total description
     public String getDetails() {
         StringBuilder sb = new StringBuilder("Order Details:\n");
         for (OrderItem item : items) {

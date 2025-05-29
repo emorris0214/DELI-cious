@@ -4,7 +4,7 @@ import java.io.*;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 
-// Handles writing order receipts to disk
+// Handles writing order receipts to disk (creates folder, timestamps file)
 public class ReceiptWriter {
 
     private static final String RECEIPT_FOLDER = "receipts";

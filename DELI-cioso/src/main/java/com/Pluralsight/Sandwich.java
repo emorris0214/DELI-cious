@@ -23,6 +23,7 @@ public class Sandwich extends OrderItem {
         this.toasted = false;
     }
 
+    // Sandwich Customization Methods (Extra for premium)
     public void addMeat(String meat) { meats.put(meat, meats.getOrDefault(meat, 0) + 1); }
     public void addExtraMeat(String meat) { addMeat(meat);}
     public void addCheese(String cheese) { cheeses.put(cheese, cheeses.getOrDefault(cheese, 0) +1); }
@@ -31,6 +32,7 @@ public class Sandwich extends OrderItem {
     public void addSauce(String sauce) { sauces.add(sauce); }
     public void setToasted(boolean toasted) { this.toasted = toasted; }
 
+    //
     @Override
     public double getPrice() {
         double base = PriceConstants.BASE_PRICES.getOrDefault(size, 0.0);
@@ -39,11 +41,13 @@ public class Sandwich extends OrderItem {
         int totalMeats = meats.values().stream().mapToInt(i -> i).sum();
         int totalCheeses = cheeses.values().stream().mapToInt(i -> i).sum();
 
+        // Multiplies count of meals/cheeses
         double meatCost = totalMeats * PriceConstants.MEAT_PRICES.getOrDefault(size, 0.0);
         double cheeseCost = totalCheeses * PriceConstants.CHEESE_PRICES.getOrDefault(size, 0.0);
         return base + meatCost + cheeseCost;
     }
 
+    // Builds a readable breakdown of the full sandwich
     @Override
     public String getDescription() {
         return size + "\" " + breadType + " Sandwich\nMeats: " + meats +

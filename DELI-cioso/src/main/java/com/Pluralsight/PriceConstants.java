@@ -4,6 +4,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 // Stores static price constants and functional pricing maps
+// Makes pricing logic more centralized
 public class PriceConstants {
     public static final Map<String, Double> BASE_PRICES = new HashMap<>();
     public static final Map<String, Double> MEAT_PRICES = new HashMap<>();

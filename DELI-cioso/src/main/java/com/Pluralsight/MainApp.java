@@ -3,11 +3,14 @@ package com.Pluralsight;
 import java.util.Scanner;
 
 public class MainApp {
+    //Calling in Scanner
     private static final Scanner keyboard = new Scanner(System.in);
 
     public static void main(String[] args) {
         boolean running = true;
         while (running) {
+
+            // Home Screen
             System.out.println("\n--- Welcome to Hoagies 4 Da Homies! ---");
             System.out.println("1) New Order");
             System.out.println("0) Exit");
@@ -28,6 +31,7 @@ public class MainApp {
         }
     }
 
+    //Creation of new order
     private static void startNewOrder() {
         Order order = new Order();
 
