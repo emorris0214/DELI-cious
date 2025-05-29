@@ -1,0 +1,26 @@
+Order Details:
+Large Drink - Root Beer ($3.0)
+
+Chips - Regular ($1.5)
+
+12" White Sandwich
+Meats: {Turkey=1, Ham=2}
+Cheeses: {Provolone=1, Swiss=1}
+Toppings: [Lettuce]
+Sauces: [Ranch]
+Toasted: Yes
+Price: $22.00
+
+12" White Sandwich
+Meats: {Turkey=1, Ham=1, Roast Beef=1}
+Cheeses: {Cheddar=2, Swiss=1}
+Toppings: [Lettuce, Peppers]
+Sauces: [Ranch, Vinegar]
+Toasted: Yes
+Price: $24.25
+
+Large Drink - Cola ($3.0)
+
+Chips - BBQ ($1.5)
+
+Total: $55.25

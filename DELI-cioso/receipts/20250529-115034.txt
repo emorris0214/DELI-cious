@@ -1,0 +1,12 @@
+Order Details:
+4" Wheat Sandwich
+Meats: {Salami=1, Ham=1, Bacon=1}
+Cheeses: {Provolone=1}
+Toppings: [Lettuce]
+Sauces: [Ranch]
+Toasted: Yes
+Price: $9.25
+
+Large Drink - Orange Soda ($3.0)
+
+Total: $12.25

@@ -124,7 +124,7 @@ public class MainApp {
     }
 
     private static Chips createChips() {
-        System.out.println("\n--- Add a Drink, Homie ---");
+        System.out.println("\n--- Get a Snack, Homie ---");
         String type = promptChoice("Select chip type", MenuOptions.CHIP_TYPES);
         return new Chips(type);
     }

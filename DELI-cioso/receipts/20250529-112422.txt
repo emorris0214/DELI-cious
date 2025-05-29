@@ -1,0 +1,14 @@
+Order Details:
+8" Wheat Sandwich
+Meats: {Turkey=2, Ham=1}
+Cheeses: {Provolone=1, Swiss=1}
+Toppings: []
+Sauces: [Ranch]
+Toasted: Yes
+Price: $16.00
+
+Medium Drink - Orange Soda ($2.5)
+
+Chips - BBQ ($1.5)
+
+Total: $20.00
