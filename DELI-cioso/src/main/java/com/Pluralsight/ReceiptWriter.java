@@ -24,6 +24,8 @@ public class ReceiptWriter {
             writer.close();
 
             System.out.println("Receipt written to: " + filename);
+            System.out.println("Thank you for ordering!");
+            System.out.println("Hope ya homie's enjoy da hoagie!");
 
         } catch (IOException e) {
             System.err.println("Failed to write receipt: " + e.getMessage());

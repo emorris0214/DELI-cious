@@ -1,0 +1,14 @@
+Order Details:
+Chips - Salt & Vinegar ($1.5)
+
+Large Drink - Root Beer ($3.0)
+
+12" Rye Sandwich
+Meats: {Turkey=1, Ham=1, Bacon=1}
+Cheeses: {Provolone=1}
+Toppings: [Lettuce, Onion]
+Sauces: [Vinaigrette, Ranch]
+Toasted: Yes
+Price: $19.75
+
+Total: $24.25

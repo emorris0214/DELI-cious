@@ -15,7 +15,7 @@ public class MenuOptions {
     public static final List<String> TOPPINGS = Arrays.asList("Lettuce", "Tomato", "Onion", "Pickles", "Olives", "Peppers", "Mushroom", "Jalapeno", "Guacamole");
     public static final List<String> SAUCES = Arrays.asList("Ketchup", "Mayo", "Mustard", "Ranch", "Oil", "Vinaigrette", "Thousand-Island");
 
-    public static final List<String> DRINK_FLAVORS = Arrays.asList("Cola", "Lemonade", "Root Beer", "Orange Soda");
+    public static final List<String> DRINK_FLAVORS = Arrays.asList("Water", "Cola", "Lemonade", "Root Beer", "Orange Soda");
     public static final List<String> DRINK_SIZES = Arrays.asList("Small", "Medium", "Large");
 
     public static final List<String> CHIP_TYPES = Arrays.asList("Regular", "BBQ", "Sour Cream & Onion", "Salt & Vinegar");
