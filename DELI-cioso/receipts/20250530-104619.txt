@@ -1,0 +1,14 @@
+Order Details:
+Large Drink - Lemonade ($3.0)
+
+8" Wheat Sandwich
+Meats: {Turkey=1, Ham=1, Bacon=1}
+Cheeses: {Provolone=1}
+Toppings: [Peppers, Lettuce, Guacamole]
+Sauces: [Vinaigrette]
+Toasted: Yes
+Price: $14.50
+
+Chips - Salt & Vinegar ($1.5)
+
+Total: $19.00
